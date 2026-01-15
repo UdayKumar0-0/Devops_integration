@@ -14,6 +14,13 @@
 
 ---
 
+## 🧭 Architecture
+
+<p align="center">
+  <img src="architecture.png" alt="DevOps Architecture Diagram" width="800"/>
+</p>
+
+
 # ☕ Swift DevOps Integration  
 ### *Automating Deployment for Rapid Delivery*
 
