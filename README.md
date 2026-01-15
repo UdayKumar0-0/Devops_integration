@@ -27,3 +27,55 @@ It covers **infrastructure provisioning**, **CI/CD automation**, **containerizat
 ## 🧭 Architecture Overview
 
 <img width="785" height="1079" alt="image" src="https://github.com/user-attachments/assets/0428acc0-9b2f-47b7-84ff-a7ec9461e1bc" />
+
+
+---
+
+## 📚 Table of Contents
+
+- [Project Requirements](#-project-requirements)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Implementation Steps](#-implementation-steps)
+- [Features](#-features)
+
+---
+
+## 📦 Project Requirements
+
+### 🖥 Infrastructure Setup
+- **OS:** Ubuntu 22.04 LTS  
+- **Instances:**
+  - 1 × Jenkins Master
+  - 2 × Worker Nodes (Test & Prod)
+
+### 🌐 Networking
+- Full inter-node communication
+- Open ports:
+  - `22` (SSH)
+  - `8080` (Jenkins)
+  - `80 / 443` (HTTP / HTTPS)
+
+### ⚙️ Hardware
+| Type | CPU | Memory |
+|-----|----|--------|
+| Minimum (t2.micro) | 1 vCPU | 1 GB |
+| Recommended (t2.medium) | 2 vCPU | 4 GB |
+
+---
+
+## 🔧 Installation
+
+<details>
+<summary><strong>Click to expand installation steps</strong></summary>
+
+1. **Install Ansible**  
+   https://docs.ansible.com/
+
+2. **Install Jenkins**  
+   https://www.jenkins.io/
+
+3. **Install Java**
+   ```bash
+   sudo apt install openjdk-17-jre
+
