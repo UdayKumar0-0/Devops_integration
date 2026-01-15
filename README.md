@@ -26,3 +26,4 @@ It covers **infrastructure provisioning**, **CI/CD automation**, **containerizat
 
 ## 🧭 Architecture Overview
 
+<img width="785" height="1079" alt="image" src="https://github.com/user-attachments/assets/0428acc0-9b2f-47b7-84ff-a7ec9461e1bc" />
